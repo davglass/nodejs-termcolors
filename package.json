@@ -1,0 +1,11 @@
+{
+  "name" : "termcolors",
+  "description" : "Add terminal color support to command line node.js",
+  "author" : "Dav Glass <davglass@gmail.com>",
+  "engines" : ["node"],
+  "directories" : { "lib" : "lib" },
+  "main" : "./lib/termcolors",
+  "repositories" : [
+    { "type":"git", "url":"http://github.com/davglass/nodejs-termcolors.git" }
+  ]
+}
