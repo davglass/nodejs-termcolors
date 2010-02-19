@@ -15,5 +15,5 @@ sys.puts('none ' + colors.bold(yellow) + ' :: ' + purple + ' :: none again');
 </pre>
 
 h2. Screenshot of test.js
-http://img404.imageshack.us/img404/7644/termcolors.png
+"test.js screenshot":http://img404.imageshack.us/img404/7644/termcolors.png
 
