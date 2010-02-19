@@ -1,0 +1,19 @@
+h1. Terminal Colors for Node.js command line apps
+
+<pre class="console">
+var sys = require('sys'),
+colors = require('./lib/termcolors').colors;
+
+var red = colors.red(colors.bg_dgray(colors.bold('This should be bold red with a dark gray bg.')));
+var blue = colors.blue('This should be blue.', true);
+var purple = colors.purple(colors.bg_lgray('This should be purple with a light gray bg.'));
+var yellow = colors.yellow('This should be yellow.', true);
+
+
+sys.puts('none ' + red + ' :: ' + blue + ' :: none again');
+sys.puts('none ' + colors.bold(yellow) + ' :: ' + purple + ' :: none again');
+</pre>
+
+h2. Screenshot of test.js
+http://img404.imageshack.us/img404/7644/termcolors.png
+
